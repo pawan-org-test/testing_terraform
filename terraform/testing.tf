@@ -11,5 +11,5 @@ provider "local" {}
 
 resource "local_file" "example" {
   content  = "Hello, Terraform!"
-  filename = "${path.module}/hi.txt"
+  filename = "${path.module}/pawan.txt"
 }
